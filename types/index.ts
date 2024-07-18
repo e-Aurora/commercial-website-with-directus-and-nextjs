@@ -1,0 +1,30 @@
+export type ProductTypes = {
+    id: number;
+    product_id: bigint;
+    skus: string;
+    total_stock: number;
+    title: string;
+    description: string;
+    photo_url: string;
+    prices: string;
+    category: string;
+    type: string;
+    images: string;
+    location_id: bigint;
+};
+export type VariantTypes = {
+    id: number;
+    variant_id: bigint;
+    product_id: bigint;
+    inventory_item_id: bigint;
+    sku: string;
+    stock: number;
+    title: string;
+    price: string;
+    color: string;
+    size: string;
+    type: string;
+    image_id: bigint;
+    photo_url: string;
+    location_id: bigint;
+};
